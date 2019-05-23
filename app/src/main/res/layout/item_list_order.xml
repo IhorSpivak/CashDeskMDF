@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:gravity="center|start"
+    android:id="@+id/llroot"
+
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="1dp">
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:id="@+id/viewStatus"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStatus"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:text="@string/status"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvId"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:text="@string/number" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:text="@string/name" />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="@string/departure_time" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:gravity="center|start"
+            android:layout_marginStart="20dp"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="40dp"
+            android:fillViewport="false"
+            android:requiresFadingEdge="horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv"
+             />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tvComments"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tvTotal"
+            android:layout_marginEnd="10dp"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:text="@string/total"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/ivMore"
+            android:src="@drawable/more_vertical"
+            android:text=""/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb"
+            android:visibility="gone"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#A9A9A9</color>
+    <color name="colorAccent">#ef1865</color>
+    <color name="colorAccentBackground">#fff3f7</color>
+    <color name="colorAccentBackground1">#0D7BB341</color>
+    <color name="lightcolorAccent">#ffe0eb</color>
+    <color name="backgroundFragment">#f7f7f7</color>
+    <color name="backgroundFragmentTranspareny">#CCf7f7f7</color>
+    <color name="backgroundBottonNavigationItem">#A9A9A9</color>
+    <color name="textColor">#808080 </color>
+    <color name="black">#de000000</color>
+    <color name="btnInBasket">#7cb342</color>
+    <color name="textColorOrderStep1">#ffc107</color>
+    <color name="lightcolorAccent2">#fff8e1</color>
+    <color name="statusReady">#7cb342</color>
+    <color name="statusReady1">#0D7cb342</color>
+    <color name="checkBox">#cccccc</color>
+    <color name="statusCollected">#FFA000</color>
+    <color name="statusCollected1">#0DFFA000</color>
+    <color name="statusCompleted">#f7f7f7</color>
+    <color name="statusCancelled">#0c1a1a1a</color>
+    <color name="statusDone">#0c2196f3</color>
+    <color name="backgroundShop">#fafafa</color>
+    <color name="statusDOneTextColor">#5699ff</color>
+    <color name="statusDOneTextColor1">#0D5699ff</color>
+    <color name="out_stock">#dd7e37</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="mainColor">#FFFFFF</color>
+    <color name="border">#e6e6e6</color>
+</resources>

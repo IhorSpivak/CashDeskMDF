@@ -1,0 +1,65 @@
+<resources>
+    <string name="status_cancel">Отменен</string>
+    <string name="status_done">Выполнен</string>
+    <string name="status_collected">Собран</string>
+    <string name="status_new">Новый</string>
+    <string name="logoutText">Вы уверены, что хотите выйти?</string>
+    <string name="exit">Выйти</string>
+    <string name="enter">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="support">Техническая поддержка: +380 67 829 43 95</string>
+    <string name="status">Статус</string>
+    <string name="number">Номер</string>
+    <string name="name">Имя</string>
+    <string name="goods">Товары</string>
+    <string name="departure_time">Дата вылета</string>
+    <string name="comments">Комментарии</string>
+    <string name="total">Итого</string>
+    <string name="print">Печатать</string>
+    <string name="cancel">Отменить</string>
+    <string name="order_number">Номер заказа</string>
+
+
+    <string-array name="animals">
+        <item>Печать</item>
+        <item>Собрать</item>
+    </string-array>
+
+    <string name="departure_date_time">Дата и время вылета</string>
+    <string name="write_comment">Написать комментарий к заказу (покупатель его не увидит)</string>
+    <string name="no_connection">Нет подключения</string>
+    <string name="empty_field">Это поле пустое</string>
+    <string name="delete_goods_ensure">Вы действительно хотите удалить товар?</string>
+    <string name="delete">Удалить</string>
+    <string name="choose">Выбрать</string>
+    <string name="close">Закрыть</string>
+    <string name="choose_available_goods_amount">Выберите доступное количество товаров</string>
+    <string name="order_cannot_be_canceled">Заказ не может быть отменен.</string>
+    <string name="sum">Сумма(-</string>
+    <string name="goods_deleted">Товар удален из заказа!</string>
+    <string name="changing_saved">Изминение сохранено</string>
+    <string name="comment_added">Комментарий добавлен</string>
+    <string name="order_status_changed_successfully">Статус заказа изменен успешно</string>
+    <string name="updated">Обновлено</string>
+    <string name="search_by_number_or_name">Поиск по номеру или имени</string>
+    <string name="choose_print_mode">Выберете вариант печати</string>
+    <string name="goods_list">Список товаров</string>
+    <string name="separately">По отдельности</string>
+    <string name="page_reloaded">Страница обновлена</string>
+    <string name="order">"Заказ "</string>
+    <string name="collected">" собран!"</string>
+    <string name="print_mode_turned_on">Режим печати включен</string>
+    <string name="send">Отправить</string>
+    <string name="specify_cancellation_reason">Укажите причину отмены</string>
+    <string name="enter_cancellation_reason">Введите причину отмены</string>
+    <string name="available">В наличии</string>
+    <string name="m_return">Вернуть</string>
+    <string name="not_available">Нет в наличии</string>
+    <string name="refused">ОТКАЗАЛИСЬ</string>
+    <string name="cancelALLcaps">Отменить</string>
+    <string name="orders">Заказы</string>
+    <string name="print_mode_turned_off">Режим печати выключен</string>
+
+
+</resources>

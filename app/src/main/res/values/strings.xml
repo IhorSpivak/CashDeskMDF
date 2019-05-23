@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name" translatable="false">CashDesk</string>
+    <string name="status_cancel">Canceled</string>
+    <string name="status_done">Completed</string>
+    <string name="status_collected">Collected</string>
+    <string name="status_new">New</string>
+    <string name="logoutText">Are you sure you want to log out?</string>
+    <string name="exit">Log out</string>
+    <string name="enter">Log in</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="support">Technical support: +380 67 829 43 95</string>
+    <string name="status">Status</string>
+    <string name="number">Number</string>
+    <string name="name">Name</string>
+    <string name="goods">Products</string>
+    <string name="departure_time">Departure time</string>
+    <string name="comments">Comments</string>
+    <string name="total">Total</string>
+    <string name="print">Print</string>
+    <string name="cancel">Cancel</string>
+    <string name="order_number">Order number</string>
+    <string name="departure_date_time">Date and time of departure</string>
+    <string name="write_comment">Write a comment to the order (the buyer will not see it)</string>
+    <string name="no_connection">No connection</string>
+    <string name="empty_field">This field is empty</string>
+    <string name="delete_goods_ensure">Do you really want to delete the product?</string>
+    <string name="delete">Delete</string>
+    <string name="choose">Choose</string>
+    <string name="close">Close</string>
+    <string name="choose_available_goods_amount">Select the available quantity of goods</string>
+    <string name="order_cannot_be_canceled">Order cannot be canceled.</string>
+    <string name="sum">Sum(-</string>
+    <string name="goods_deleted">Product was removed from order!</string>
+    <string name="changing_saved">Change was saved</string>
+    <string name="comment_added">Comment was added</string>
+    <string name="order_status_changed_successfully">Order status was successfully changed </string>
+    <string name="updated">Updated</string>
+    <string name="search_by_number_or_name">Search by number or name</string>
+    <string name="choose_print_mode">Choose a print option</string>
+    <string name="goods_list">Product list</string>
+    <string name="separately">Separately</string>
+    <string name="page_reloaded">Page was updated</string>
+    <string name="order">Order </string>
+    <string name="collected">" collected!"</string>
+    <string name="cancelALLcaps">Cancel</string>
+
+    <string-array name="animals">
+        <item>Print</item>
+        <item>Collect</item>
+
+    </string-array>
+    <string name="print_mode_turned_on">Print mode is on</string>
+    <string name="send">Send</string>
+    <string name="specify_cancellation_reason">Specify the reason for cancellation</string>
+    <string name="enter_cancellation_reason">Enter the reason of cancellation</string>
+    <string name="available">Available</string>
+    <string name="m_return">Return</string>
+    <string name="not_available">Not available</string>
+    <string name="refused">REFUSED</string>
+    <string name="orders">Orders</string>
+    <string name="print_mode_turned_off">Print mode turned of</string>
+</resources>

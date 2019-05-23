@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.rambler.libs.swipe_layout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_marginBottom="1dp"
+    android:layout_height="130dp"
+    android:id="@+id/root"
+    app:left_swipe_enabled="true"
+    app:clickToClose="false">
+
+    <!--CENTER. app:gravity="center" - is default value -->
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/root2">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/llrl">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/iv_image" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.03"
+                    android:background="@color/black"/>
+
+            </RelativeLayout>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTitle"
+                    android:maxLines="2"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_toEndOf="@+id/llrl"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSCU"
+                    android:textSize="24sp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/textColor"
+                    android:layout_toEndOf="@+id/llrl"
+                    android:layout_below="@+id/tvTitle"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tvTitle"
+                    android:layout_marginStart="120dp"
+                    android:id="@id/ll3"
+                    android:layout_centerInParent="true">
+
+
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvQuantity"
+                        android:textSize="24sp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/chevron_sorting"
+                        android:layout_toEndOf="@+id/tvQuantity"
+                        android:id="@+id/iv_chevron" />
+
+                </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvPrice"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="190dp"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@+id/ll3"
+
+                        />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvInStoke"
+            android:text="@string/available"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:layout_marginEnd="20dp"
+            android:layout_centerInParent="true"
+            android:stateListAnimator="@null"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentEnd="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvIsRefused"
+            android:text="@string/m_return"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:layout_marginEnd="20dp"
+            android:layout_centerInParent="true"
+            android:stateListAnimator="@null"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+    <!--RIGHT-->
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        app:gravity="right"
+        app:bring_to_clamp="150dp"
+        app:clamp="self"
+        app:sticky="280dp">
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:id="@+id/rlOutStock"
+            android:background="@drawable/ripple_for_out_stock">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:id="@+id/ivSlash"
+                android:src="@drawable/slash"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/ivSlash"
+                android:layout_marginTop="14dp"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/not_available"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/rlDeleteItem"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:id="@+id/ivDelete"
+                android:src="@drawable/trash"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/ivDelete"
+                android:layout_marginTop="14dp"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/refused"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ru.rambler.libs.swipe_layout.SwipeLayout>
